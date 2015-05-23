@@ -20,11 +20,11 @@ The script was implemented under Mac OS X 10.10 and RStudio. It was not tested u
 
 The script performs the following high-level tasks:
 
-Set the working directory as UCI HAR Dataset 
-Loads the features, the subjects and activities for both training and test sets.
-It merges features, subjects, and activities.
-Keeps only the variable related to mean and std
-Creates the tiny data set with the average of each variable for each activity and each subject.
+- Set the working directory as UCI HAR Dataset 
+- Loads the features, the subjects and activities for both training and test sets.
+- It merges features, subjects, and activities.
+- Keeps only the variable related to mean and std
+- Creates the tiny data set with the average of each variable for each activity and each subject.
 
 ### CodeBook.md
 
