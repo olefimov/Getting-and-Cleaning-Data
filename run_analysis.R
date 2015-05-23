@@ -1,4 +1,6 @@
 run_analysis <- function() {
+    setwd('UCI HAR Dataset/')
+    
     ## Step 1 - Merging the training and the test sets to create one data set.
     #########################################################################
     #reading test tables
@@ -81,6 +83,8 @@ run_analysis <- function() {
     
     #set column names
     colnames(tidyData) <- colnames(xTotal)
+    
+    setwd('..')
     
     return(tidyData)
 }
