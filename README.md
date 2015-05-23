@@ -14,7 +14,7 @@ Appropriately labels the data set with descriptive activity names.
 Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 This Github repository provides a script (run_analysis.R), a tidy dataset (tidymeans.txt), and a codebook (CodeBook.md).
 
-run_analysis.R
+## run_analysis.R
 
 The script was implemented under Mac OS X 10.10 and RStudio. It was not tested under Windows environment nor the command-line version of R. Please run it from RStudio. The script takes less than a minute to complete assuming that data has been downloaded and unzipped to your current working directory already. (Hardware config is MacBook Pro 15 i7/16GB RAM)
 
